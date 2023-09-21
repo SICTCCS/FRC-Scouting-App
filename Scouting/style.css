@@ -1,0 +1,34 @@
+body {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(56, 56, 56);
+}
+
+.submit input {
+    margin-top: 1%;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.submit input:hover {background-color: gray}
+
+.submit input:active {
+  background-color: whitesmoke;
+}
+
+.footer {
+    margin-top: 1%;
+    font-size: small;
+}
+
+.cssform {
+    background-color: whitesmoke;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
