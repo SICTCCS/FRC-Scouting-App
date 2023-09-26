@@ -24,11 +24,13 @@ body {
 
 .cssform {
     background-color: whitesmoke;
-    height: 100%;
+    height: max-content;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
     font-family: 'Montserrat', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
