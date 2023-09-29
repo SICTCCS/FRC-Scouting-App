@@ -1,29 +1,35 @@
-
-
-
-
 <!-- 
       Click this Link: https://github.com/SICTCCS/FRC-Scouting-App
       to learn how to access the collective data and how to update the form
 -->
 
-<!-- Note to self, update the dropdown menu to a plus and minus button to take in user input -->
+    <!-- DO NOT TOUCH THIS FILE UNLESS YOU ARE NOT DOING IT'S YEARLY UPDATE, ONE SMALL CHANGE CAN MESS UP THE WHOLE FILE -->
+    <!-- WARNING FOR UPDATING FORM, javascript is blocked on EVSC chrome accounts as of 2023, Unless it got unblocked, don't add javascript -->
+    <!-- UPDATING THE FORM, if you want to change the form data for a new robotics year, the only things you need to touch in this file is in the code under the "START OF FORM" comment -->
 
+    <!-- If you have any questions, email me at ascheller30@yahoo.com -->
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<link rel="stylesheet" type="text/css" href="style.css" /> 
+<!DOCTYPE html>
 <html>
   <body>
 
+
+
+
+
+    <!-- START OF FORM -->
     <div class = "cssform">
       <br>
+    <!-- TITLE -->
   <h1>7657 Scouting</h1>
   <br>
 
   <form action="info.php" method="POST">
 
+      <!-- STORES STRING DATA  -->
       Team Number: <input type="text" name="Team_Name" placeholder="7657"><br><br>
 
+      <!-- THE REST STORE INTEGER DATA -->
       Mobility: 
         <select name="Mobility">
           <option value="0">No</option>
@@ -42,7 +48,7 @@
         <select name="Balance">
           <option value="0">No</option>
           <option value="1">Yes</option>
-        </select><br><br><br><br>
+        </select><br><br><br>
 
         Cones placed on top row: 
         <select name="ConeTop">
@@ -72,7 +78,7 @@
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select><br><br><br><br>
+        </select><br><br><br>
 
         Cubes placed on top row: 
         <select name="CubeTop">
@@ -103,18 +109,93 @@
           <option value="4">4</option>
           <option value="5">5</option>
         </select><br><br>
-
+        
+        <!-- SUBMIT BUTTON -->
         <div class = "submit">
       <input type="submit" value="Submit" name="submit">
       </div>
 
   </form>
-
+  <!-- END OF FORM -->
   
+  <!-- START OF FOOTER -->
 
   <div class = "footer">
+      <!-- DON'T TOUCH -->
     <p>Made by. <a href="https://andrewscheller2006.github.io/Portfolio/">Andrew Scheller</a></p>
     </div>
+    <br>
     </div>
+  <!-- END OF FOOTER -->
+
+
+
+
+
+
+  <!-- START OF CSS  -->
+<style>
+
+/* STYLING FOR EVERYTHING ON WEBSITE */
+body {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(56, 56, 56);
+}
+
+/* ---SUBMIT BUTTON START--- */
+.submit input {
+    margin-top: 1%;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+.submit input:hover {background-color: gray}
+
+.submit input:active {
+  background-color: whitesmoke;
+}
+/* ---SUBMIT BUTTON END--- */
+
+/* FOOTER WITH MY NAME */
+.footer {
+    margin-top: 1%;
+    font-size: small;
+}
+
+/* EVERYTHING IN THE WHITE RECTANGE*/
+.cssform {
+    background-color: whitesmoke;
+    height: max-content;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+</style>
+  <!-- END OF CSS  -->
+
+
+
+
+
+
+  <!-- START OF PYTHON API -->
+<py-script>
+
+  <!-- Nothing in here yet -->
+
+</py-script>
+  <!-- END OF PYTHON API -->
 </body>
 </html>
+
+
+  <!-- Made by. Andrew Scheller -->
+  
