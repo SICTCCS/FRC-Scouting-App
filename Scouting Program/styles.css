@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-size: large;
+    background-color: rgb(56, 56, 56);
+}
+
+/* ---SUBMIT BUTTON START--- */
+.submit input {
+    margin-top: 1%;
+    width: 300px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+
+.submit input:hover {background-color: gray}
+
+.submit input:active {
+  background-color: whitesmoke;
+}
+/* ---SUBMIT BUTTON END--- */
+
+/* FOOTER WITH MY NAME */
+.footer {
+    margin-top: 1%;
+    font-size: small;
+}
+
+/* EVERYTHING IN THE WHITE RECTANGE*/
+.cssform {
+    background-color: whitesmoke;
+    height: max-content;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: auto;
+    margin-bottom: auto;
+}
