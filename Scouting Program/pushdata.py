@@ -1,5 +1,5 @@
 import cgi
-import mysql.connector
+import pymysql
 
 form = cgi.FieldStorage()
 Team_Name = form.getvalue('Team_Name')
@@ -15,7 +15,7 @@ CubeBottom = form.getvalue('CubeBottom')
 
 
 # Connect to the database
-mydb = mysql.connector.connect(
+mydb = pymysql.connect(
   host="10.60.4.27",
   user="root",
   password="pencil1!",

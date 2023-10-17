@@ -1,12 +1,11 @@
-import mysql.connector
+import pymysql
 
 # Connect to the database
-mydb = mysql.connector.connect(
+mydb = pymysql.connect(
   host="10.60.4.27",
-  user="root",
-  password="pencil1!",
+  user="Sictc",
+  password="Pencil1!",
   database="Scores"
-  
 )
 
 # Create a cursor object
